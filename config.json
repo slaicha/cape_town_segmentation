@@ -1,0 +1,15 @@
+{
+    "cuda_visible_devices": "0,2,3,5,6,7",
+    "data_dir": "/home/as1233/cape_town_segmentation/data/cal_320",
+    "tile_size": 320,
+    "batch_size": 16,
+    "num_workers": 4,
+    "epochs": 100,
+    "out_classes": 1,
+    "mode": "train",
+    "finetune_checkpoint": "/home/as1233/cape_town_segmentation/trained_models/cal_320/epoch=39-valid_dataset_iou=0.9293.ckpt",
+    "trained_models_dir": "/home/as1233/cape_town_segmentation/trained_models/cal_320_new",
+    "logs_dir": "/home/as1233/cape_town_segmentation/logs/cal_320",
+    "results_file": "/home/as1233/cape_town_segmentation/results/cp_640.txt"
+  }
+  

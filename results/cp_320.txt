@@ -1,0 +1,15 @@
+Validation Metrics:
+[
+    {
+        "valid_per_image_iou": 0.6798512935638428,
+        "valid_dataset_iou": 0.6194897890090942
+    }
+]
+
+Test Metrics:
+[
+    {
+        "test_per_image_iou": 0.6877986192703247,
+        "test_dataset_iou": 0.7649951577186584
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "image_path": "/home/as1233/data/",
+    "json_path": "/home/as1233/data/metadata/SolarArrayPolygons.geojson",
+    "dataset_path": "/home/as1233/cape_town_segmentation/data/cal_data",
+    "gers": false,
+    "image_size": 320,
+    "shuffle": true,
+    "test_split": 0.25
+}
