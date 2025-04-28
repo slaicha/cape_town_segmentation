@@ -21,13 +21,18 @@ To generate image-mask pairs of the California dataset, you can follow the instr
 Note: You should have already downloaded the California data from [here](https://figshare.com/articles/dataset/Distributed_Solar_Photovoltaic_Array_Location_and_Extent_Data_Set_for_Remote_Sensing_Object_Identification/3385780?backTo=/collections/Full_Collection_Distributed_Solar_Photovoltaic_Array_Location_and_Extent_Data_Set_for_Remote_Sensing_Object_Identification/3255643)
 
 Organize the California data folder as follows:
-data/
-├── Fresno/
-├── metadata/
-├── Modesto/
-├── Oxnard/
-└── Stockton/
 
+data/
+
+├── Fresno/
+
+├── metadata/
+
+├── Modesto/
+
+├── Oxnard/
+
+└── Stockton/
 
 ### Sample California image-mask pair
 <p align="center">
