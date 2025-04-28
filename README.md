@@ -22,11 +22,16 @@ Note: You should have already downloaded the California data from [here](https:/
 
 Organize the California data folder as follows:
 
-data/\\
-├── Fresno/\\
-├── metadata/\\
-├── Modesto/\\
-├── Oxnard/\\
+data/
+
+├── Fresno/
+
+├── metadata/
+
+├── Modesto/
+
+├── Oxnard/
+
 └── Stockton/
 
 ### Sample California image-mask pair
@@ -38,8 +43,9 @@ data/\\
 
 
 ## Cape Town Dataset
-To generate image-mask pairs for the Cape Town images, we first need to preprocess the annotations and create a comprehensive GeoDataFrame that includes all the relevant details of the polygon annotations. This GeoDataFrame follows the same structure as the one provided with the California dataset in the metadata folder. For the full details of the annotation processing steps, please refer to the `data_processing_cape_town.ipynb` notebook. The final GeoDataFrame is saved in `./data/annotations_final.geojson`. Sample image-mask pairs can be found in the `sample_cape_town_dataset` folder.
+To generate image-mask pairs for the Cape Town images, we first need to preprocess the annotations and create a comprehensive GeoDataFrame that includes all the relevant details of the polygon annotations. This GeoDataFrame follows the same structure as the one provided with the California dataset in the metadata folder. For the full details of the annotation processing steps, please refer to the `data_processing_cape_town.ipynb` notebook and read it carefully. The final GeoDataFrame is saved in `./data/annotations_final.geojson`. Sample image-mask pairs can be found in the `sample_cape_town_dataset` folder.
 
+Note: Similarily to the California dataset, the Cape Town images should downloaded and stored in the data folder. Split the images into train, test, and val datasets.
 
 ### Sample Cape Town image mask pair 
 
@@ -51,5 +57,8 @@ To generate image-mask pairs for the Cape Town images, we first need to preproce
 
 
 # Training 
-The segmentation model used for training is the U-Net. The details of the training on the California dataset and the results can be found in the `segmentation.ipynb` notebook.
+The trainining script is `train.py`. Please make sure to change paths in the file before running it. The script calls classes and functions from `data_gen.py` and `model.py`.
+
+
+`segmentation.ipynb` provprovides a walkthrough of the training process. You can start by studying this file and running it before moving on to `train.py`. Essentially, both files contain the same functions, but `train.py` is tailored GPU training.
 

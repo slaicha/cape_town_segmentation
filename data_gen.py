@@ -1,3 +1,11 @@
+# code edited from https://github.com/qubvel-org/segmentation_models.pytorch/blob/main/examples/cars%20segmentation%20(camvid).ipynb
+
+# This code defines a custom PyTorch Dataset class for image segmentation.
+# It loads image-mask pairs, applies preprocessing (like converting images from BGR to RGB and binarizing the masks),
+# and supports data augmentation using the albumentations library. 
+# Two augmentation pipelines are defined: strong random transformations for training and simple padding for validation. 
+# This setup helps improve model robustness and ensures that images and masks stay properly aligned during training.
+
 import os
 import cv2
 import numpy as np

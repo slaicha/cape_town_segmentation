@@ -19,3 +19,4 @@ lightning_logs/
 trained_models/
 
 train_draft.py
+segmentation_copy.ipynb
