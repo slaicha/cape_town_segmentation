@@ -22,16 +22,11 @@ Note: You should have already downloaded the California data from [here](https:/
 
 Organize the California data folder as follows:
 
-data/
-
-├── Fresno/
-
-├── metadata/
-
-├── Modesto/
-
-├── Oxnard/
-
+data/\\
+├── Fresno/\\
+├── metadata/\\
+├── Modesto/\\
+├── Oxnard/\\
 └── Stockton/
 
 ### Sample California image-mask pair
